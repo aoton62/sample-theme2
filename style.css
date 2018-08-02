@@ -125,3 +125,16 @@ input[type="tel"],
 textarea {
   border: 1px solid #666666;
 }
+
+.breadcrumb {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.breadcrumb li:not(:last-child)::after {
+	content:">";
+	padding: 0 5px;
+}
