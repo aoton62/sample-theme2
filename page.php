@@ -12,7 +12,7 @@ if ( shortcode_exists( 'wp-structuring-markup-breadcrumb' ) ) {
 <div class="contents">
 	<main>
 		<?php if ( have_posts() ) : ?>
-		<article　class="contents-policy>
+		<article　class="contents-policy">
 			<?php
 				the_post();
 				the_title( '<h1>' , '</h1>' );
